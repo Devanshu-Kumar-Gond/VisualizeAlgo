@@ -91,7 +91,7 @@ class BinarySearch extends React.Component {
 
   showArray = (p5) => {
     for (let i = 0; i < n; i++) {
-      if(array[i] == key){
+      if(array[i] === key){
         p5.fill(255, 0, 0);
       }
       else if(i >= lo && i <= hi) {
