@@ -61,7 +61,7 @@ class BinarySearch extends React.Component {
   };
 
   draw = (p5) => {
-    if(flag === true){
+    if(flag == true){
       this.showArray(p5);
     }
     if (!found && lo <= hi) {
@@ -69,7 +69,7 @@ class BinarySearch extends React.Component {
       this.showArray(p5);
       if (key) {
         mid = Math.floor((lo + hi) / 2);
-        if (array[mid] === key) {
+        if (array[mid] == key) {
           found = true;
           p5.fill(255, 0, 0);
           p5.rect(mid * length, 0, length, breadth);
@@ -91,7 +91,7 @@ class BinarySearch extends React.Component {
 
   showArray = (p5) => {
     for (let i = 0; i < n; i++) {
-      if(array[i] === key){
+      if(array[i] == key){
         p5.fill(255, 0, 0);
       }
       else if(i >= lo && i <= hi) {

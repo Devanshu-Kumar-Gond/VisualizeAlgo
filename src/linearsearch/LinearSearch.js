@@ -72,7 +72,7 @@ class LinearSearch extends React.Component {
       this.showArray(p5);
       if (key) {
         if (index !== -1) {
-          if (array[index] === key) {
+          if (array[index] == key) {
             p5.fill(255, 0, 0);
             visited[index] = true;
             found = true;
@@ -88,7 +88,7 @@ class LinearSearch extends React.Component {
         index = index + 1;
       }
     }
-    else if(index === 21 && !found){
+    else if(index == 21 && !found){
       console.log("Not found");
       found = true;
     }
@@ -99,7 +99,7 @@ class LinearSearch extends React.Component {
       if (!visited[i]) {
         p5.fill(4, 228, 221);
       }
-      else if(flag && array[i] === key){
+      else if(flag && array[i] == key){
         console.log(1);
         p5.fill(255, 0, 0);
       }
