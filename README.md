@@ -8,7 +8,7 @@ Learn Algorithm by visualizing it.
 2.	Searching Algorithms –  Linear search, Binary search
 3.	Sorting Algorithms – Quick sort, Merge sort, Insertion sort, Bubble sort, Selection sort
 4.	Backtracking – Maze Generation Algorithms
-5.	Genetic Algorithms – Minimum Spanning Tree Generation
+5.	Minimum Spanning Tree Generation
 •	Skills Used – React, p5.js, Java Script, Data Structures, Algorithms
 
 # How to run
